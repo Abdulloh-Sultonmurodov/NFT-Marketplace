@@ -17,7 +17,7 @@ const SendEmail = ({ showIcon }: { showIcon: boolean }) => {
       <Button
         iconPosition="left"
         icon={showIcon && <MessageIcon />}
-        classList="!w-full sm:!w-auto sm:!absolute right-0 top-0 bottom-0 !px-[50px] !py-[12px]"
+        classList="!w-full sm:!w-auto sm:!absolute right-0 top-0 bottom-0 !px-[50px] !py-[19px]"
       >
         Subscribe
       </Button>

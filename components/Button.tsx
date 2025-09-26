@@ -18,7 +18,7 @@ const Button: FC<ButtonProps> = ({
   return (
     <button
       onClick={onClick}
-      className={`${classList} bg-[#A259FF] hover:bg-transparent border-[2px] hover:text-[#A259FF] border-transparent hover:border-[#A259FF] 2duration-400 text-white font-semibold text-[16px] sm:py-[19px] px-[30px] rounded-[20px] flex justify-center gap-[12px] cursor-pointer`}
+      className={`${classList} bg-[#A259FF] hover:bg-transparent border-[2px] hover:text-[#A259FF] border-transparent hover:border-[#A259FF] duration-400 text-white font-semibold text-[16px] sm:py-[19px] px-[30px] rounded-[20px] flex justify-center gap-[12px] cursor-pointer`}
     >
       {iconPosition == "left" && icon && icon}
       {children}
