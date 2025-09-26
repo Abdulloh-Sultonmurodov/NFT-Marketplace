@@ -14,10 +14,7 @@ const HeroContent: FC<{
     <section className="py-[80px]">
       <div className="containers flex flex-col gap-[40px] lg:gap-0 lg:flex-row items-center justify-between">
         <div className="w-full lg:w-[500px]">
-          <Heading
-            classList="!mb-[20px] !text-[28px]  !leading-[110%]"
-            tag="h1"
-          >
+          <Heading classList="!mb-[20px] !text-[28px] !leading-[110%]" tag="h1">
             Discover digital art & Collect NFTs
           </Heading>
           <Text classList="!mb-[30px] !max-w-[370px] !capitalize">
@@ -33,26 +30,26 @@ const HeroContent: FC<{
                 <strong className="text-white text-[28px] font-bold ">
                   {totalSale.length}+
                 </strong>
-                <Text classList="!text-[16px] sm:!text-[23px]">Total Sale</Text>
+                <Text classList="!text-[23px]">Total Sale</Text>
               </div>
               <div>
                 <strong className="text-white text-[28px] font-bold ">
                   {auctions.length}+
                 </strong>
-                <Text classList="!text-[16px] sm:!text-[23px]">Auctions</Text>
+                <Text classList="!text-[23px]">Auctions</Text>
               </div>
               <div>
                 <strong className="text-white text-[28px] font-bold ">
                   {artists.length}+
                 </strong>
-                <Text classList="!text-[16px] sm:!text-[23px]">Artists</Text>
+                <Text classList="!text-[23px]">Artists</Text>
               </div>
             </div>
           </div>
         </div>
         <div className="max-w-[510px]">
           <CustomImage src="/hero-img.png" alt="Hero img" W={510} H={401} />
-          <div className="py-[22px] px-[20px] mb-[40px] lg:mb-0 bg-[#3B3B3B] rounded-br-[20px] rounded-bl-[20px]">
+          <div className="py-[22px] mb-[40px] lg:mb-0 px-[20px] bg-[#3B3B3B] rounded-br-[20px] rounded-bl-[20px]">
             <Heading tag="h3">Space Walking</Heading>
             <div className="flex items-center gap-[12px] mt-[10px]">
               <CustomImage
