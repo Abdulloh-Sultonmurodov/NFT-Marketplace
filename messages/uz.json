@@ -4,5 +4,36 @@
         "rankings":"Reytinglar",
         "connectWallet":"Hamyonni ulash",
         "signUp":"Ro'yxatdan o'tish"
+    },
+    "heroContent":{
+        "discover":"Raqamli san'atni kashf eting va NFTlarni to'plang",
+        "nftMarketplace":"Figma uchun Anima bilan yaratilgan NFT bozor interfeysi. 20 mingdan ortiq NFT rassomlarining san'atini to'plang, sotib oling va soting.",
+        "getStarted":"Boshlash",
+        "totalSale":"Jami savdo",
+        "auctions": "Auktsionlar",
+        "artists": "Rassomlar",
+        "spaceWalking": "Kosmosda yurish"
+    },
+    "collectionContent":{
+        "trending":"Ommabop to'plam",
+        "checkout":"Haftalik yangilanadigan trend to'plamimizni tekshiring."
+    },
+    "creatorContent":{
+        "topCreators":"Eng yaxshi ijodkorlar",
+        "checkoutTop":"Eng yaxshi reytingga ega ijodkorlarni tekshiring",
+        "viewRankings": "Reytinglarni ko'ring"
+    },
+    "footerContent":{
+        "nftFigma":"Figma uchun Anima bilan yaratilgan NFT bozor interfeysi.",
+        "join":"Bizning hamjamiyatimizga qo'shiling",
+        "explore": "Tadqiq qiling",
+        "marketplace": "Bozor",
+        "rankings": "Reytinglar",
+        "connectWallet": "Hamyonni ulang",
+        "joinOur": "Bizning haftalik yangiliklarimizga qo'shiling",
+        "getExclusive": "  Maxsus takliflar va yangilanishlarni to'g'ridan-to'g'ri pochta qutingizga oling.",
+        "nftMarket": "  Ⓒ NFT Market. Use this template freely.",
+        "emailPlaceholder": "Bu yerga elektron pochtangizni kiriting",
+        "subscribe": "Obuna bo'lish"
     }
 }

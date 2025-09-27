@@ -2,19 +2,22 @@ import { CreatorType } from "@/@types/CreatorType";
 import { Button, Heading, Text } from "@/components";
 import CreatorCard from "@/components/CreatorCard";
 import { RocketIcon } from "@/icons";
+import { useTranslations } from "next-intl";
 import React, { FC } from "react";
 
 const CreatorContent: FC<{ creators: CreatorType[] }> = ({ creators }) => {
+  const t = useTranslations("creatorContent");
+
   return (
     <section className="py-[80px]">
       <div className="containers">
         <div className="flex items-center justify-between mb-[60px]">
           <div>
-            <Heading tag="h2">Top creators</Heading>
-            <Text>Checkout Top Rated Creators on the NFT Marketplace</Text>
+            <Heading tag="h2">{t("topCreators")}</Heading>
+            <Text>{t("checkoutTop")}</Text>
           </div>
           <Button icon={<RocketIcon />} iconPosition="left">
-            View Rankings
+            {t("viewRankings")}
           </Button>
         </div>
         <div className="flex justify-between flex-wrap">

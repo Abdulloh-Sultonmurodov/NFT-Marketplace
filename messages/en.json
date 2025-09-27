@@ -4,5 +4,36 @@
         "rankings":"Rankings",
         "connectWallet":"Connect a wallet",
         "signUp":"Sign Up"
+    },
+    "heroContent":{
+        "discover":"Discover digital art & Collect NFTs",
+        "nftMarketplace":"NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.",
+        "getStarted":"Get Started",
+        "totalSale":"Total Sale",
+        "auctions": "Auctions",
+        "artists": "Artists",
+        "spaceWalking": "Space Walking"
+    },
+    "collectionContent":{
+        "trending":"Trending Collection",
+        "checkout":"Checkout our weekly updated trending collection."
+    },
+    "creatorContent":{
+        "topCreators":"Top creators",
+        "checkoutTop":"Checkout Top Rated Creators on the NFT Marketplace",
+        "viewRankings": "View Rankings"
+    },
+    "footerContent":{
+        "nftFigma":"NFT marketplace UI created with Anima for Figma.",
+        "join":"Join our community",
+        "explore": "Explore",
+        "marketplace": "Marketplace",
+        "rankings": "Rankings",
+        "connectWallet": "Connect a wallet",
+        "joinOur": "Join our weekly digest",
+        "getExclusive": " Get exclusive promotions & updates straight to your inbox.",
+        "nftMarket": "  Ⓒ NFT Market. Use this template freely.",
+        "emailPlaceholder": "Enter your email here",
+        "subscribe": "Subscribe"
     }
 }
