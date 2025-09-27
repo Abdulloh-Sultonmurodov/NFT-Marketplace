@@ -29,7 +29,7 @@ const CollectionCard: FC<{ item: CollectionType }> = ({ item }) => {
         </div>
         <div className="w-[30%] sm:h-[100px] rounded-[20px] duration-300 overflow-hidden collection-img-wrapper">
           <CustomImage
-            classList="!w-[30%] !duration-300"
+            classList="!w-[100%] !duration-300"
             src={`${API}/file/${item.images[2]}`}
             alt="Collection img"
             W={100}
