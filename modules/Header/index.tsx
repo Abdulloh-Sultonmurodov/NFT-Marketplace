@@ -1,4 +1,5 @@
 import { Button, CustomImage } from "@/components";
+import LangConfig from "@/components/LangConfig";
 import { HamburgerMenu, SignUpIcon } from "@/icons";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
@@ -39,6 +40,7 @@ const Header = () => {
         <Button iconPosition="left" icon={<SignUpIcon />}>
           {t("signUp")}
         </Button>
+        <LangConfig />
       </div>
       <button className="cursor-pointer lg:hidden ">
         <HamburgerMenu />
