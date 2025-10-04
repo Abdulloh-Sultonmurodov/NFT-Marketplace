@@ -20,7 +20,7 @@ const CreatorContent: FC<{ creators: CreatorType[] }> = ({ creators }) => {
             {t("viewRankings")}
           </Button>
         </div>
-        <div className="flex justify-between flex-wrap">
+        <div className="flex justify-between flex-wrap gap-[30px]">
           {creators.map((item, index) => (
             <CreatorCard key={item.id} item={item} index={index} />
           ))}

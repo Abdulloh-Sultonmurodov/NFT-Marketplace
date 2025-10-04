@@ -1,4 +1,12 @@
-import { Collection, Creators, Hero, Auctions, NFT } from "@/modules";
+import {
+  Collection,
+  Creators,
+  Hero,
+  Auctions,
+  NFT,
+  WorkList,
+  DigestInput,
+} from "@/modules";
 import Categories from "@/modules/Categories";
 
 export default function Home() {
@@ -10,6 +18,8 @@ export default function Home() {
       <Categories />
       <NFT />
       <Auctions />
+      <WorkList />
+      <DigestInput />
     </main>
   );
 }

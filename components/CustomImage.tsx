@@ -9,17 +9,15 @@ interface ImageType {
   H: number;
 }
 
-const CustomImage: FC<ImageType> = ({ classList, src, alt, W, H }) => {
-  return (
-    <Image
-      className={`${classList} w-[${W}px] h-[${H}px]`}
-      src={src}
-      alt={alt}
-      width={W}
-      height={H}
-      priority
-    />
-  );
-};
+const CustomImage: FC<ImageType> = ({ classList, src, alt, W, H }) => (
+  <Image
+    className={`${classList} w-[${W}px] h-[${H}px]`}
+    src={src}
+    alt={alt}
+    width={W}
+    height={H}
+    priority
+  />
+);
 
 export default CustomImage;

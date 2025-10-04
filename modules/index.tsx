@@ -6,6 +6,8 @@ import Creators from "./Creators";
 import Categories from "./Categories";
 import NFT from "./NFT";
 import Auctions from "./Auctions";
+import WorkList from "./Work-List";
+import DigestInput from "./DigestInput";
 
 export {
   Header,
@@ -16,4 +18,6 @@ export {
   Categories,
   NFT,
   Auctions,
+  WorkList,
+  DigestInput,
 };
