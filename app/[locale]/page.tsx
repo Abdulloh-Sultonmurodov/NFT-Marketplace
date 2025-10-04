@@ -1,4 +1,5 @@
-import { Collection, Creators, Hero } from "@/modules";
+import { Collection, Creators, Hero, Auctions, NFT } from "@/modules";
+import Categories from "@/modules/Categories";
 
 export default function Home() {
   return (
@@ -6,6 +7,9 @@ export default function Home() {
       <Hero />
       <Collection />
       <Creators />
+      <Categories />
+      <NFT />
+      <Auctions />
     </main>
   );
 }
