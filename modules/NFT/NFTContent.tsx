@@ -20,7 +20,7 @@ const NFTContent: FC<{ nft: NTFType[] }> = ({ nft }) => {
             See All
           </Button>
         </div>
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between gap-[30px] flex-wrap">
           {nft.map((item) => (
             <NFTCard key={item.id} item={item} />
           ))}
